@@ -1,0 +1,21 @@
+body {
+    background: #fefefe;
+}
+h2 {
+    color: #1460aa
+}
+p {
+    color:rgb(172, 122, 66)
+}
+.kolory-tygodni {
+    color: aqua;
+}
+#top {
+    background-color:rgb(229, 226, 226);
+}
+nav a {
+    color: red;
+}
+footer a {
+    color: #551212
+}
