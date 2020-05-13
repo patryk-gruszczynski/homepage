@@ -1,7 +1,7 @@
-alert('cześć witam Cie na mojej stronce:)');
+alert("cześć witam Cie na mojej stronce:)");
 
-const firstName = 'Patryk';
-const age = '31';
+const firstName = "Patryk";
+const age = "31";
 
 console.log(firstName);
 console.log(age);
