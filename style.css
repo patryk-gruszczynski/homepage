@@ -1,5 +1,5 @@
 body {
-  background: #fefefe;
+  background: ivory;
 }
 h2 {
   color: #1460aa;
@@ -10,12 +10,37 @@ p {
 .kolory-tygodni {
   color: aqua;
 }
-#top {
-  background-color: rgb(229, 226, 226);
-}
 nav a {
   color: red;
 }
 footer a {
   color: #551212;
 }
+.box {
+  background: rgb(128, 175, 128);
+  color: indigo;
+  width: 100%;
+  height: top;
+  padding: 20px;
+  border-width: 3px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+.absolute {
+  position: absolute;
+  left: 50px;
+  top: 20px;
+  background-color: darkgoldenrod;
+}
+.absolute-second {
+  position: absolute;
+  left: 200px;
+  top: 20px;
+}
+.absolute-third {
+  position: absolute;
+  left: 300px;
+  top: 20px;
+  }
