@@ -15,17 +15,17 @@
         <a class="absolute-third" href="działka.html"><b>Działka</b></a>
       </nav>
     </header>
-    <main class ="box-main">
+    <main class ="main">
       <header>
-        <h1 class="main-heading main-heading--js">
+        <h1 class="main__heading main__heading--js">
           Patryk Gruszczyński – Zmiana main heading js
       </h1>
       </header>
 
-      <section>
-        <h2>Co tu robię?</h2>
+      <section class ="about">
+        <h2 class ="about__heading">Co tu robię?</h2>
 
-        <p>
+        <p class ="about__description">
           Zapisałem się na ten kurs żeby dowiedzieć się czegoś na temat
           programowania, ponieważ nigdy nie miałem z tym do czynienia i była to
           dla mnie czarna magia. Ponieważ do poszerzenia swojej działalności mam
@@ -40,10 +40,10 @@
       <section>
         <h2>Notatki z WTF: co ten frontend</h2>
 
-        <article>
-          <h3 class="tygodnie">Tydzień I</h3>
+        <article class ="week-summary">
+          <h3 class="week-summary__title">Tydzień I</h3>
 
-          <p>
+          <p class="week-summary__description">
             Był on „zapoznawczy” dowiedziałem się czym w ogóle jest frontend
             oraz z jakich narzędzi będę korzystał w trakcie kursu i wszystko
             zainstalowałem na komputerze. Poznałem kilka podstawowych skrótów
@@ -51,10 +51,10 @@
           </p>
         </article>
 
-        <article>
-          <h3 class="tygodnie__parzyste">Tydzień II</h3>
+        <article class ="week-summary">
+          <h3 class="week-summary__title">Tydzień II</h3>
 
-          <p>
+          <p class="week-summary__description">
             Na początek dowiedziałem się jakie są warstwy strony internetowej, i
             jak układają się wg kolejnoścci: treść, HTML, CSS i Java Script.
             Poznałem budowę znaczników, jak tworzyć szkielet strony w Visual
@@ -63,10 +63,10 @@
             żonie w serwisie internetowym, że Arsenal podpisał ze mną kontrakt.
           </p>
         </article>
-        <article>
-          <h3 class="tygodnie">Tydzień III</h3>
+        <article class ="week-summary">
+          <h3 class="week-summary__title">Tydzień III</h3>
 
-          <p>
+          <p class="week-summary__description">
             Na początek nowego tygodnia omówione zostało Trello i ustalanie w
             nim zadań co nazywa się Kanban. Później przeszliśmy do drugiej
             części nauki <b>HTML</b>, doszły nowe znaczniki i elementy
@@ -76,10 +76,10 @@
             nowością było zapoznanie się JavaScriptem i terminalem.
           </p>
         </article>
-        <article>
-          <h3 class="tygodnie__parzyste">Tydzień IV</h3>
+        <article class ="week-summary">
+          <h3 class="week-summary__title">Tydzień IV</h3>
 
-          <p>
+          <p class="week-summary__description">
             To był trudny tydzień. Na serio dużo odcinków i wiele rzeczy do
             zapamiętania, chyba nawet za dużo, aż łeb boli. Na początek było o
             Gicie jak się nim posługiwać i Githubie, jak wypychać do niego dane
@@ -92,9 +92,9 @@
         </article>
       </section>
     </main>
-    <footer>
+    <footer class ="footer">
       Strona domowa Patryka Gruszczyńskiego z kursu WTF: Co ten frontend
-      <a href="#top">Wróć na górę strony</a>
+      <a class ="footer__link" href="#top">Wróć na górę strony</a>
     </footer>
     <script src="main.js"></script>
   </body>

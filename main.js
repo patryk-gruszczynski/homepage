@@ -1,12 +1,13 @@
 alert("cześć witam Cie na mojej stronce:)");
 
-const firstName = "Patryk";
-const age = "31";
+function greet(firstName,age) {
+console.log (
+`Witaj drogi odwiedzający nazywam się ${firstName} i mam ${age} lat.`
+);
+}
 
-console.log(firstName);
-console.log(age);
-console.log(`Siema, nazywam się ${firstName} i mam ${age} lat`);
+greet('Patryk','31')
 
-const heading = document.querySelector('.main-heading--js');
+const heading = document.querySelector('.main__heading--js');
 
 console.log(heading);
