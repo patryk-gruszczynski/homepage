@@ -1,4 +1,4 @@
-alert("cześć witam Cie na mojej stronce:)");
+
 
 function greet(firstName,age) {
 console.log (

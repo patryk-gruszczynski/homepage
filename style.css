@@ -1,24 +1,33 @@
 body {
-  background: ivory;
+  background: background-color: #08AEEA;
+  background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+  background-attachment: scroll;
 }
+
 h2 {
   color: #1460aa;
 }
 p {
-  color: rgb(172, 122, 66);
+  color: rgb(87, 47, 1);
 }
 .week-summary__title {
-  color: aqua;
+  color: rgb(248, 244, 7);
 }
 .week-summary {
-border-color: #9797a7;
-border-style: solid;
-margin: 3px;
+  border-color: #9797a7;
+  border-style: solid;
+  margin: 3px;
 }
 nav a {
   color: red;
   text-decoration: none;
+ }
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
+
 footer a {
   color: #551212;
 }
@@ -33,27 +42,40 @@ footer a {
   border-style: solid;
   border-radius: 20px;
   box-sizing: border-box;
-  }
-.absolute {
-  position: absolute;
-  left: 150px;
-  top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
-.absolute-second {
-  position: absolute;
-  left: 300px;
-  top: 20px;
-}
-.absolute-third {
-  position: absolute;
-  left: 400px;
-  top: 20px;
-  }
+
 .main {
-max-width: 1000px;
-margin: 0 auto;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  column-gap: 16px;
+  row-gap: 16pxs;
 }
+
+.about {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.trele {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.week {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+
+
 .footer {
   max-width: 1000px;
-  margin: 0 auto;  
+  margin: 0 auto;
 }
