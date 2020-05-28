@@ -48,12 +48,7 @@ footer a {
 }
 
 .main {
-  max-width: 1000px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 3fr 1fr;
-  column-gap: 16px;
-  row-gap: 16pxs;
+
 }
 
 .about {
@@ -78,4 +73,17 @@ footer a {
 .footer {
   max-width: 1000px;
   margin: 0 auto;
+}
+
+
+
+@media screen and (min-width: 600px) {
+
+  .main {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  column-gap: 16px;
+  row-gap: 16pxs;
 }
