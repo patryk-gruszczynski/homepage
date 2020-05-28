@@ -11,3 +11,11 @@ greet('Patryk','31')
 const heading = document.querySelector('.main__heading--js');
 
 console.log(heading);
+
+const hamburger = document.querySelector('.hamburger--js');
+
+hamburger.addEventListener('click', () => {
+
+    const nav = document.querySelector('navigation--js');
+    nav.classList.toggle('navigation--open');
+})

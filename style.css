@@ -4,6 +4,18 @@ body {
   background-attachment: scroll;
 }
 
+
+.header {
+  min-height: 60px;
+  top: 0;
+  width: 100%
+}
+
+.main__heading {
+  padding: 16px;
+  margin: 20px 20px 20px 20px
+}
+
 h2 {
   color: #1460aa;
 }
@@ -19,36 +31,43 @@ p {
   margin: 3px;
 }
 nav a {
-  color: red;
   text-decoration: none;
+  display: block;
+  margin: 0 0 16px;
  }
-.navigation {
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
+
+ .box {
+padding: 16px
+display: block;
 }
+
+.navigation {
+  color: #551212;
+  display: none;
+  margin: 0 0 16px;
+}
+
+.navigation--open {
+  display: block;
+}
+
+.hamburger {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  border: none;
+  background: none;
+}
+
 
 footer a {
   color: #551212;
 }
-.box {
-  background: rgb(128, 175, 128);
-  color: indigo;
-  width: 100%;
-  height: top;
-  padding: 20px;
-  border-width: 3px;
-  border-color: black;
-  border-style: solid;
-  border-radius: 20px;
-  box-sizing: border-box;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
+
 
 .main {
-
+max-width: 100%;
+min-height: 60px;
 }
 
 .about {
@@ -56,7 +75,7 @@ footer a {
   grid-column-end: 2;
 }
 
-.trele {
+.aside {
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 2;
@@ -77,6 +96,16 @@ footer a {
 
 
 
+.about__picture {
+  display: block;
+  max-width: 100%;
+}
+
+.garden__picture {
+  display: block;
+  max-width: 100%;  
+}
+
 @media screen and (min-width: 600px) {
 
   .main {
@@ -86,4 +115,34 @@ footer a {
   grid-template-columns: 3fr 1fr;
   column-gap: 16px;
   row-gap: 16pxs;
+}
+
+.navigation--js {
+  background: rgb(128, 175, 128);
+  color: rgb(233, 17, 143);
+  width: 100%;
+  height: top;
+  padding: 20px;
+  border-width: 3px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.main__heading {
+  padding: 16px;
+}
+
+.hamburger {
+  display: none;
 }
