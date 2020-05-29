@@ -12,10 +12,10 @@ const heading = document.querySelector('.main__heading--js');
 
 console.log(heading);
 
-const hamburger = document.querySelector('.hamburger--js');
+const hamburger = document.querySelector('.navigation--js');
 
 hamburger.addEventListener('click', () => {
 
-    const nav = document.querySelector('navigation--js');
+    const nav = document.querySelector('.navigation--js');
     nav.classList.toggle('navigation--open');
 })

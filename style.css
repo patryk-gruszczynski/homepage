@@ -36,7 +36,7 @@ nav a {
   margin: 0 0 16px;
  }
 
- .box {
+.box {
 padding: 16px
 display: block;
 }
@@ -70,31 +70,10 @@ max-width: 100%;
 min-height: 60px;
 }
 
-.about {
-  grid-column-start: 1;
-  grid-column-end: 2;
-}
-
-.aside {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 2;
-  grid-row-end: 3;
-}
-
-.week {
-  grid-column-start: 1;
-  grid-column-end: 2;
-}
-
-
-
 .footer {
   max-width: 1000px;
   margin: 0 auto;
 }
-
-
 
 .about__picture {
   display: block;
@@ -117,9 +96,8 @@ min-height: 60px;
   row-gap: 16pxs;
 }
 
-.navigation--js {
+.navigation {
   background: rgb(128, 175, 128);
-  color: rgb(233, 17, 143);
   width: 100%;
   height: top;
   padding: 20px;
@@ -133,16 +111,27 @@ min-height: 60px;
   align-items: center;
 }
 
-.navigation {
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-}
-
 .main__heading {
   padding: 16px;
 }
 
 .hamburger {
   display: none;
+}
+
+.about {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.aside {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.week {
+  grid-column-start: 1;
+  grid-column-end: 2;
 }
