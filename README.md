@@ -1,3 +1,4 @@
+![cover] (GHreadme/DSCN1977)
 # Tak wygląda moja pierwsza strona
 
 ***czytając te readme conieco dowiesz się o stronie***
@@ -9,4 +10,4 @@
 - toaletki
 - działka
 
-![cover] (GHreadme/DSCN1977)
+
