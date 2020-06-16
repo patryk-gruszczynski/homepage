@@ -9,4 +9,4 @@
 - toaletki
 - działka
 
-![DSCN1977] (./GHreadme/DSCN1977)
+![cover] (GHreadme/DSCN1977)
