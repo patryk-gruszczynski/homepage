@@ -4,7 +4,7 @@
 
 >czytaj a będziesz mądrzejszy
 
-**Ta strona posiada trzy zakłądki**
+**Ta strona posiada trzy zakładki**
 - strona główna
 - toaletki
 - działka
