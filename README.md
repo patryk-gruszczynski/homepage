@@ -1,4 +1,4 @@
-![cover] (GH/DSCN1977)
+![cover] (GH/DSCN1977.jpg)
 # Tak wygląda moja pierwsza strona
 
 ***czytając te readme conieco dowiesz się o stronie***
