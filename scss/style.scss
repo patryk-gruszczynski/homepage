@@ -16,8 +16,13 @@ body {
   margin: 20px 20px 20px 20px
 }
 
-.week-summary__title {
-  color: rgb(248, 244, 7);
+.week-summary {
+  border-color: #9797a7;
+  border-style: solid;
+  margin: 3px;
+  &__title {
+    color: rgb(248, 244, 7);
+  }
 }
 
 .week-summary__title::before {
@@ -35,34 +40,15 @@ h2 {
 p {
   color: rgb(87, 47, 1);
 }
-.week-summary__title {
-  color: rgb(248, 244, 7);
-}
 
-.week-summary__title::before {
-  content: "";
-  background: black;
-  width: 8px;
-  height: 8px;
-  display: inline-block;
-  margin: 0 10px 0 10px;
-}
-
-.week-summary {
-  border-color: #9797a7;
-  border-style: solid;
-  margin: 3px;
-}
 nav a {
   text-decoration: none;
   display: block;
   margin: 0 0 16px;
+  color: red;
  }
 
-
-
 .navigation {
-  color: #551212;
   display: none;
   margin: 0 0 16px;
 }
