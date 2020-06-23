@@ -1,4 +1,5 @@
-![cover] (toaletka1.jpg)
+![cover page](gh/toaletka1.jpg)
+
 # Tak wygląda moja pierwsza strona
 
 ***czytając te readme conieco dowiesz się o stronie***
