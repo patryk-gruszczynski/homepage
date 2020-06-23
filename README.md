@@ -1,4 +1,4 @@
-![cover page](gh/toaletka1.jpg)
+![cover page](GH/toaletka1.jpg)
 
 # Tak wygląda moja pierwsza strona
 
